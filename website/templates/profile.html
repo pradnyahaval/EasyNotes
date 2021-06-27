@@ -1,0 +1,23 @@
+{% extends "base.html" %} 
+
+{% block title %} Profile {% endblock %}
+
+{% block content %} 
+
+<h2 align="center">Your Profile</h2>
+<form method='POST'>
+    <div class="profile" align="center">
+        <div class="left" style="display: inline-block;">
+            <img src="../static/img/user-logo.png" alt="profile-logo">
+        </div>
+        <div class="right" style="display: inline-block;">
+            <ul>
+                <li>Name: {{ user.first_name }}</li>
+                <li>Email: {{ user.email }}</li>
+                <li>Password: 1234</li>
+            </ul>
+        </div>
+    </div>
+</form>
+
+{% endblock %}

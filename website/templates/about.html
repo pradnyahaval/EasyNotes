@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %} About {% endblock %}
+
+{% block content %}
+
+<form method="POST">
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+        has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+        the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+        Aldus PageMaker including
+        versions of Lorem Ipsum.
+    </p>
+
+    <h3>Contact us for any query</h3>
+
+    <div class="location-icon" style="display: inline;">
+        <img src="../static/img/location-icon.png" alt="location">
+    </div>
+    <div class="address" style="display: inline;">
+        <ul>
+            <li>Iris Watson</li>
+            <li>P.O. Box 283 8562 Fusce Rd.</li>
+            <li> Frederick Nebraska 20620</li>
+            <li>(372) 587-2335</li>
+        </ul>
+    </div>
+
+    <div class="icons">
+        <a href="#"><img src="../static/img/facebook-icon.png" alt="facebook"></a>
+        <a href="#"><img src="../static/img/instagram-icon.png" alt="instagram"></a>
+        <a href="#"><img src="../static/img/twitter-icon.png" alt="twitter"></a>
+    </div>
+</form>
+
+
+{% endblock %}
