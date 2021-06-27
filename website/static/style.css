@@ -1,0 +1,93 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    color: silver;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+header img{
+    margin-left: 30px;
+}
+
+/*Navigation bar design*/
+.navbar{
+    opacity: 60%;
+}
+
+.navbar .collapse .navbar-nav .nav-item{
+    color: white;
+    font-size: 18px;
+    border-right: 2px solid white;
+}
+
+.container{
+    margin-top: 20px;
+    overflow-wrap: break-word;
+}
+
+.container1{
+    border: 1px solid rgb(230, 212, 212);
+    padding: 10px;
+}
+
+.container1 input{
+    width: 60%;
+    align-items: center;
+}
+
+/*Notes list design*/
+.notes img{
+    width: 25px;
+}
+
+.notes li{
+    margin:0 0 10px 0;  /*to add space between two list items*/
+    background-color: transparent;
+    outline: 1px solid rgb(231, 217, 217);
+    outline-style:groove;
+}
+
+.textarea{
+    background-color: transparent;
+}
+
+/* Profile page design */
+.profile{
+    width: auto;
+    border: 1.5px solid silver;
+    /*border-radius: 5% 5% 0% 0% / 5% 0% 5% 0%;*/
+    border-radius: 15px;
+    background-color: transparent;
+    padding:40px;
+  }
+
+.profile .left img{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.profile .right ul{
+    font-size: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* about Page */
+.location-icon img{
+    width: 60px;
+}
+
+.address ul{
+    list-style-type: none;
+}
+
+.icons img{
+    width: 40px;
+    margin-right: 15px;
+}
