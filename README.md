@@ -5,7 +5,7 @@ User can signin and manage their personal notes
 1. Login page 
 ![alt text](screenshots/1.login.png)
 
-2.Signin page
+2.Signup page
 ![alt text](screenshots/2.signin.png)
 
 3.About page
